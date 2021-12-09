@@ -1,0 +1,5 @@
+marketing <- read.csv("marketing.csv", header = TRUE, sep = ",", dec = ".", stringsAsFactors = T)
+names(marketing)
+str(marketing)
+View(marketing)
+summary(marketing)
